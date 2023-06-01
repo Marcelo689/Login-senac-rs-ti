@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(91, 91, 221);
+}
+
+.containter-principal{
+    margin:auto;
+    width: 30vw;
+}
+
+
+
+.container-logo{
+    display: flex;
+    margin: 2vh 1vw;
+
+    justify-content: space-between;
+}
+
+.container-logo h2{
+    color: rgb(13, 13, 163);
+    margin-right: 50px;
+    margin-bottom:-5px;
+}
+
+.container-texto hr{
+    width: 22%;
+    height: 0px;
+    margin:0px;
+    padding:0px;
+    border-bottom: 2px solid orange;
+}
+
+.container-logo img{
+    height: 50px;
+}
+
+.container-inputs{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-inputs input{    
+    width: 30vw;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 6px;
+    line-height: 20px;
+    
+    border: 1px solid gainsboro;
+    outline: none;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    margin: auto;
+}
+
+.btn-enviar{
+    background-color: orange;
+    border: none;
+    border-radius:3px;
+    color: white;
+    padding:7px;
+    width: 30vw;
+    margin: auto;
+}
+
+.container-inputs span:nth-child(1){
+    position: absolute;
+    margin-top: -9vh;
+    margin-right:10px;
+    align-self: flex-end;
+    color: gray;
+}
+
+.container-inputs span:nth-child(3){
+    position: absolute;
+    margin-top: 4vh;
+    margin-right:10px;
+    align-self: flex-end;
+    color: gray;
+}
